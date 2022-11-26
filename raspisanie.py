@@ -5,6 +5,21 @@ class raspisabie_Lib(loader.Library):
   developer = "@ToXicUse"
   version = (0, 0, 1)
 
+
+  HisKz_dz = self.db.get("dz_text", "HisKz_dzz")
+  litra_dz = self.db.get('dz_text', 'litra_dzz')
+  algebra_dz = self.db.get('dz_text', 'algebra_dzz')
+  biology_dz = self.db.get('dz_text', 'biology_dzz')
+  en_dz = self.db.get('dz_text', 'en_dzz')
+  kz_dz = self.db.get('dz_text', 'kz_dzz')
+  geog_dz = self.db.get('dz_text', 'geog_dzz')
+  fizika_dz = self.db.get('dz_text', 'fizika_dzz')
+  geom_dz = self.db.get('dz_text', 'geom_dzz')
+  osnovi_dz = self.db.get('dz_text', 'osnovi_dzz')
+  himia_dz = self.db.get('dz_text', 'himia_dzz')
+  vsemirka_dz = self.db.get('dz_text', 'vsemirka_dzz')
+  rus_dz = self.db.get('dz_text', 'rus_dzz')
+
   ponedelnik = f'''
 ☾☽ 𝙷𝚒𝚜𝚝𝚘𝚛𝚢 𝚘𝚏 𝙺𝚊𝚣𝚊𝚔𝚑𝚜𝚝𝚊𝚗
     ☞ {HisKz_dz} ☜
